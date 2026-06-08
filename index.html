@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колесо фортуны</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <h1>Колесо фортуны</h1>
+            <h2>Система розыгрыша призов</h2>
+        </header>
+
+        <main class="main">
+            <section class="wheel-section">
+                <div class="wheel-box">
+                    <div class="pointer"></div>
+                    <img src="wheel.png" alt="Колесо фортуны" id="wheel" class="wheel">
+                </div>
+
+                <div class="controls">
+                    <label class="file-button">
+                        Выбрать файл
+                        <input type="file" id="fileInput" accept=".json,.csv,application/json,text/csv">
+                    </label>
+                    <button type="button" id="loadButton">Загрузить</button>
+                    <button type="button" id="spinButton">Крутить</button>
+                    <button type="button" id="historyButton">История</button>
+                    <button type="button" id="resetButton">Сброс</button>
+                </div>
+
+                <!-- <p id="fileName" class="file-name">Файл не выбран</p> -->
+            </section>
+
+            <aside class="side-panel">
+                <section class="panel-block">
+                    <h2>Участники</h2>
+                    <div id="participantsList" class="participants-list">
+
+                    </div>
+                </section>
+
+                <section class="panel-block">
+                    <h2>История</h2>
+                    <div id="historyList" class="history-list">
+
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
