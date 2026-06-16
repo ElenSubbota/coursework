@@ -67,21 +67,6 @@ body {
     transform: rotate(0deg);
 }
 
-.wheel.fallback-wheel {
-    background:
-        conic-gradient(
-            #ffcf56 0deg 36deg,
-            #f36f45 36deg 72deg,
-            #4fb4d8 72deg 108deg,
-            #72bd63 108deg 144deg,
-            #f0a23d 144deg 180deg,
-            #8e7cc3 180deg 216deg,
-            #e55d87 216deg 252deg,
-            #46b39d 252deg 288deg,
-            #2f80ed 288deg 324deg,
-            #9bc53d 324deg 360deg
-        );
-}
 
 .pointer {
     position: absolute;
