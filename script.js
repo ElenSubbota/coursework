@@ -440,14 +440,6 @@ const escapeHtml = (val) => {
         .replace(/'/g, "&#039;");
 }
 
-// const useFallbackWheel = () => {
-//     wheel.classList.add("fallback-wheel");
-
-//     wheel.alt = "";
-
-//     wheel.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
-// }
-
 // обработчики событий
 fileInput.addEventListener("change", () => {
     selectedFile = fileInput.files[0] || null;
