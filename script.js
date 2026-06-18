@@ -456,4 +456,3 @@ spinButton.addEventListener("click", startSpin);
 historyButton.addEventListener("click", downloadHistory);
 resetButton.addEventListener("click", resetDraw);
 
-wheel.addEventListener("error", useFallbackWheel);
